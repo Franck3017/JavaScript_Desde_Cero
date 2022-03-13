@@ -5,6 +5,62 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	background: #E5E5E5;
+	margin: 0;
+	padding: 0;
+}
+
+.main-header{
+	width: 100%;
+	margin-bottom: 4rem
+}
+
+.header{
+	background: #333;
+	width: 90%;
+	max-width: 1200px;
+	height: 45px;
+	margin: 0 auto;
+}
+
+.menu{
+	height: 100%;
+}
+
+.menu__list{
+	height: 100%;
+	list-style: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.menu__item{
+	flex-basis: 0;
+	flex-grow: 1;
+	text-align: center;
+	word-spacing: 10px;
+}
+
+.menu__item a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	display: inline-block;
+	word-spacing: 10px;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+}
+
+.menu__item a:hover{
+	color: hsl(180, 60%, 70%);
 }
 
 main {
