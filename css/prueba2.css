@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;    
+}
+
+:root{
+    --primary__color: #333;
+    --primary__txtcolor: #ddd;
+}
+
+body{
+    background: var(--primary__color);
+    color: var(--primary__txtcolor);
+    font-size: 1rem;
+
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icono__animado{
+    width: 128px;
+    height: 128px;
+    display: block;
+    object-fit: contain;
+}
